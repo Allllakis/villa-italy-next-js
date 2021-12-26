@@ -1,7 +1,7 @@
 .slider {
-width: 70%;
-height: 700px;
-background-color: black;
+  width: 70%;
+  height: 700px;
+  background-color: black;
 }
 
 .sliderInner {
@@ -13,3 +13,34 @@ background-color: black;
   display: flex;
 }
 
+.sliderInner .left {
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  cursor: pointer;
+}
+
+.sliderInner .center {
+  flex: 90%;
+  height: 100%;
+}
+.sliderInner .right {
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  color: azure;
+  cursor: pointer;
+}
