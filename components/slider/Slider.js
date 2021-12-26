@@ -18,14 +18,14 @@ const Slider = () => {
           className={classes.left}
           onClick={() => currImg > 0 && setCurrImg(currImg - 1)}
         >
-          <ArrowBackIosIcon />
+          <ArrowBackIosIcon style={{fontSize: 30}}/>
         </div>
         <div className={classes.center}></div>
         <div
           className={classes.right}
           onClick={() => currImg < images.length - 1 && setCurrImg(currImg + 1)}
         >
-          <ArrowForwardIosIcon />
+          <ArrowForwardIosIcon  style={{fontSize: 30}}/>
         </div>
         {/* <img src={images[currImg].image} /> */}
         {/* <Image src={images[currImg].image} alt='villa' layout='fill'/> */}
