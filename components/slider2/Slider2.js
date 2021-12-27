@@ -7,6 +7,7 @@ import "swiper/css/bundle";
 import "swiper/css";
 
 import { images } from "../slider/DataSlider";
+
 import classes from "./Slider2.module.css";
 
 SwiperCore.use([Parallax, Scrollbar, Navigation]);
