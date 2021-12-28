@@ -41,29 +41,35 @@ const Slider2 = () => {
         <SwiperSlide>
           <div
             className={classes.sliderInner}
-            data-swiper-parallax="20%"
+            data-swiper-parallax="5%"
             style={{ backgroundImage: `url(${images[0].image})` }}
-          ></div>
+          >
+            <div className={classes["content-wrapper"]}>
+              <h1>
+                Welcome to your <br /> beautiful villa
+              </h1>
+              <Button link={'/'}>
+                <span>Book now</span>
+              </Button>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className={classes.sliderInner}
             style={{ backgroundImage: `url(${images[1].image})` }}
-          ></div>
+          >
+            <h1>Welcome to your biutiful villa</h1>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className={classes.sliderInner}
             style={{ backgroundImage: `url(${images[2].image})` }}
-          ></div>
+          >
+            <h1>Welcome to your biutiful villa</h1>
+          </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
-      <div className={classes['slider-scrollbar']}>
-        <div className={classes['swiper-scrollbar']}>
-
-        </div>
-      </div>
-    </SwiperSlide> */}
       </Swiper>
     </div>
   );
