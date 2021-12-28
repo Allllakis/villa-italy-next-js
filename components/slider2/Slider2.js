@@ -42,33 +42,55 @@ const Slider2 = () => {
         <SwiperSlide>
           <div
             className={classes.sliderInner}
-            data-swiper-parallax="5%"
-            style={{ backgroundImage: `url(${images[0].image})` }}
+            // data-swiper-parallax="5%"
+            style={{ backgroundImage: `url(${images[1].image})` }}
           >
             <div className={classes["content-wrapper"]}>
               <h1>
                 Welcome to your <br /> beautiful villa
               </h1>
-              <Button link={'/'}>
-                <span>Book now</span>
-              </Button>
+              <div className={classes.btn}>
+                <Button link={"/"}>
+                  <span>Book now</span>
+                </Button>
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className={classes.sliderInner}
-            style={{ backgroundImage: `url(${images[1].image})` }}
+            // data-swiper-parallax="5%"
+            style={{ backgroundImage: `url(${images[0].image})` }}
           >
-            <h1>Welcome to your biutiful villa</h1>
+             <div className={classes["content-wrapper"]}>
+              <h1>
+                Welcome to your <br /> beautiful villa
+              </h1>
+              <div className={classes.btn}>
+                <Button link={"/"}>
+                  <span>Book now</span>
+                </Button>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className={classes.sliderInner}
+            // data-swiper-parallax="5%"
             style={{ backgroundImage: `url(${images[2].image})` }}
           >
-            <h1>Welcome to your biutiful villa</h1>
+            <div className={classes["content-wrapper"]}>
+              <h1>
+                Welcome to your <br /> beautiful villa
+              </h1>
+              <div className={classes.btn}>
+                <Button link={"/"}>
+                  <span>Book now</span>
+                </Button>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
       </Swiper>
