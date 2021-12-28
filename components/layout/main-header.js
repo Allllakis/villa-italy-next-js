@@ -16,6 +16,9 @@ const MainHeader = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
+              <Link href="/details">Details</Link>
+            </li>
+            <li>
               <Link href="/services">Services</Link>
             </li>
             <li>

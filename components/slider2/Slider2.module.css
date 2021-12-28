@@ -20,12 +20,14 @@
 }
 .slider :global(.swiper-button-prev::after) {
   color: #94fdfd;
+  padding-left: 3rem;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .slider :global(.swiper-button-next::after) {
   color: #94fdfd;
+  padding-right: 5rem;
   font-size: 2rem;
   font-weight: bold;
 }

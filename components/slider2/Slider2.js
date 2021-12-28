@@ -43,9 +43,9 @@ const Slider2 = () => {
           <div
             className={classes.sliderInner}
             // data-swiper-parallax="5%"
-            style={{ backgroundImage: `url(${images[1].image})` }}
+            style={{ backgroundImage: `url(${images[1].image})`}}
           >
-            <div className={classes["content-wrapper"]}>
+            <div className={classes["content-wrapper"]} >
               <h1>
                 Welcome to your <br /> beautiful villa
               </h1>
