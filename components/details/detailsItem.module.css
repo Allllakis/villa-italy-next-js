@@ -1,0 +1,11 @@
+.details {
+  background-color: #314443;
+  width: 100%;
+  height: 100%;
+  display: flex;
+ 
+}
+
+.wrapper {
+    margin: 5rem auto;
+}

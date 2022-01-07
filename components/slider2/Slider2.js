@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Scrollbar, Parallax, Navigation } from "swiper";
 import "swiper/css/scrollbar";
