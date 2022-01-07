@@ -24,3 +24,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.description {
+  text-align: center;
+  color: #bd9b60;
+}
+
+.btn {
+  text-transform: uppercase;
+}
