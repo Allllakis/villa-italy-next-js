@@ -1,23 +1,27 @@
 import React from "react";
 import Image from "next/image";
 import classes from "./detailsItem.module.css";
-import {images} from './DataImageDetails'
+import { images } from "./DataImageDetails";
+import Button from "../ui/button";
 
 const DetailsItem = () => {
- 
   return (
     <section className={classes.details}>
-      
-        <div className={classes.wrapper}>
-          <Image src={images[0].image} alt='villa' width={350} height={350} />
-        </div>;
-        <div className={classes.wrapper}>
-          <Image src={images[1].image} alt='villa' width={350} height={350} />
-        </div>;
-        <div className={classes.wrapper}>
-          <Image src={images[2].image} alt='villa' width={350} height={350} />
-        </div>;
-    
+      {images.map((item, index) => {
+        return (
+          <div className={classes.wrapper} key={index}>
+            <div className={classes.container}>
+              <Image src={item.image} alt="villa" layout='fill' />
+            </div>
+
+            <h3>{item.title}</h3>
+            <p className={classes.text}>{item.description}</p>
+            <Button>
+          <span className={classes.btn}>More</span>
+        </Button>
+          </div>
+        );
+      })}
     </section>
   );
 };
