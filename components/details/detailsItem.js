@@ -11,14 +11,14 @@ const DetailsItem = () => {
         return (
           <div className={classes.wrapper} key={index}>
             <div className={classes.container}>
-              <Image src={item.image} alt="villa" layout='fill' />
+              <Image src={item.image} alt="villa" layout="fill" />
             </div>
 
             <h3>{item.title}</h3>
             <p className={classes.text}>{item.description}</p>
             <Button>
-          <span className={classes.btn}>More</span>
-        </Button>
+              <span className={classes.btn}>More</span>
+            </Button>
           </div>
         );
       })}
