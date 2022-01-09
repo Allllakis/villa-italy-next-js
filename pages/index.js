@@ -3,6 +3,7 @@ import About from "../components/about/about";
 import classes from "../styles/Home.module.css";
 import DetailsItem from "../components/details/detailsItem";
 import AllPhotos from "../components/allPhotos/all-photos";
+import Reviews from "../components/reviews/reviews";
 
 export default function HomePage(props) {
   return (
@@ -11,6 +12,7 @@ export default function HomePage(props) {
       <About />
       <DetailsItem />
       <AllPhotos />
+      <Reviews />
     </div>
   );
 }
