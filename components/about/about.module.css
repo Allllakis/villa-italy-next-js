@@ -4,17 +4,18 @@
 }
 
 .wrapper {
-    width: 90vw;
-    min-height: 33vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2rem auto;
+  width: 90vw;
+  min-height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem auto;
 }
 
 .wrapper h2 {
-    color: #414141;
+  margin-bottom: 3rem;
+  color: #414141;
 }
 .underline {
   width: 5rem;
@@ -26,9 +27,15 @@
 }
 
 .description {
+  line-height: 1.5;
   text-align: center;
   color: #bd9b60;
-  font-family: 'Courgette';
+  font-family: "Courgette";
+}
+
+.content {
+  margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .btn {

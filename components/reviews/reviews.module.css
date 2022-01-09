@@ -10,11 +10,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .container h2 {
   text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 .underline {
   width: 5rem;

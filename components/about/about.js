@@ -13,7 +13,7 @@ const About = () => {
           just a stroll away from Colli di Fontanelle
         </p>
         <div className={classes.underline}></div>
-        <p>
+        <p className={classes.content}>
           Designed to blend contemporary style with more than a touch of
           country-house romance, the splendid Villa Sirenuse sits amid tiered
           gardens, 300m above the blue of the bay. Tree-shaded lawns, paved
