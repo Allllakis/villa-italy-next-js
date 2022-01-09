@@ -15,4 +15,9 @@ export const images = [
     image: "/images/details/image3.jpg",
     description: 'Are you looking for a beautiful, exclusive villa in Italy? Villa Sirenuse is ideal for long term rentals all year round...'
   },
+  {
+    title: 'Winter Season Rental',
+    image: "/images/details/image4.jpg",
+    description: 'Italy Amalfi coast is renowned for its mild and warm winters. Since ancient times, noble people from all over the world spent their ...'
+  },
 ];

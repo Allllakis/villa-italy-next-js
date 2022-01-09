@@ -19,7 +19,7 @@ const AllPhotos = () => {
         </div>
         <div>
         <Button>
-          <span className={classes.btn}>All Photos</span>
+          <span className={classes.btn}>More Photos</span>
         </Button>
         </div>
         
